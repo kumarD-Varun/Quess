@@ -1,0 +1,23 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-textinput {
+  color: #000000;
+  width: 443px;
+  height: 45px;
+  z-index: 30;
+  position: relative;
+  align-self: flex-start;
+  text-align: justify;
+  caret-color: var(--dl-color-gray-white);
+  font-family: Archivo;
+  border-width: 0px;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-emphasis-color: var(--dl-color-success-300);
+}
+.component-root-class-name {
+  top: 138px;
+  left: 486px;
+  position: absolute;
+}
